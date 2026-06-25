@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undercover At A Ball</title>
+    <link rel="stylesheet" href="./countess-lettuce.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <div class="info">
+            <h1>Countess Hedda Lettuce</h1>
+            <p>Countess Hedda Lettuce: Coming from the Southern part of the Empire, Countess Hedda Lettuce loves
+                salads. She loves salads so much that she has them for almost all her meals, and even has a garden
+                dedicated to growing lettuce. She had gardens with:</p>
+            <ul>
+                <li>Lettuce</li>
+                <li>Cabbage</li>
+                <li>Tomato</li>
+                <li>Onion</li>
+                <li>Cucumber</li>
+            </ul>
+            <p>and more. She has a different kind of salad everyday.</p>
+        </div>
+        <img src="./assets/countess-lettuce.png" id="image">
+        <audio src="./assets/countess-lettuce.m4a" id="audio"></audio>
+    </main>
+
+    <nav>
+        <ul>
+            <li><a href="./lady-bbq.html">Lady Barbeque</a></li>
+            <li><a href="./countess-lettuce.html">Countess Hedda Lettuce</a></li>
+            <li><a href="./duchess-party.html">Duchess Ivana Party</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>Copyright &#169;2026 <a href="https://github.com/raghacchino" target="_blank">Raghacchino</a>. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const audio = document.getElementById("audio")
+        const image = document.getElementById("image")
+
+        image.addEventListener('mouseenter', () => {
+            audio.play()
+        })
+
+        image.addEventListener('mouseover', () => {
+            audio.play()
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undercover At A Ball</title>
+    <link rel="stylesheet" href="./duchess-party.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <div class="info">
+            <h1>Duchess Ivana Party</h1>
+            <p>From the Dukedom of Partyland, Duchess Ivanna Party manages the Dukedom with her quick wit and wisdom.
+                The Dukedom is always celebrating and enjoying. They say you don't need to have an occasion to have a
+                party in the Dukedom.</p>
+            <br>
+            <p>They always have a party for some reason, especially the Duchess. She has a tea party, a cofee party, 
+                a juice party. And she also has a party for her pets, her pets' toys and her pillows. She has a dessert
+                party, a snacks party, a salad party, and so many parties.
+            </p>
+            <br>
+            <p>The previous Duchess also liked to party a lot. Their first Duchess also liked to party so much. 
+                Sometimes they also have a dance party, like King Julien. And they obviously have a birthday party,
+                and a half-birthday party, and a monthly birthday party, and a weekly birthday party. So many parties. 
+            </p>
+        </div>
+        <img src="./assets/duchess-party.png" id="image">
+        <audio src="./assets/duchess-ivana-party.m4a" id="audio"></audio>
+    </main>
+
+    <nav>
+        <ul>
+            <li><a href="./lady-bbq.html">Lady Barbeque</a></li>
+            <li><a href="./countess-lettuce.html">Countess Hedda Lettuce</a></li>
+            <li><a href="./duchess-party.html">Duchess Ivana Party</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>Copyright &#169;2026 <a href="https://github.com/raghacchino" target="_blank">Raghacchino</a>. All Rights
+            Reserved.</p>
+    </footer>
+
+    <script>
+        const audio = document.getElementById("audio")
+        const image = document.getElementById("image")
+
+        image.addEventListener('mouseenter', () => {
+            audio.play()
+        })
+
+        image.addEventListener('mouseover', () => {
+            audio.play()
+        })
+    </script>
+</body>
+
+</html>
